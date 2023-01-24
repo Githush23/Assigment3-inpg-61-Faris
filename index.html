@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment 3</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header id="head-header">
+        <h1 id="head">COVID-19 TRACKER</h1>
+    </header>
+    <!-- Button Search Section-->
+    <form id="search">
+        <input type="text" name="keyword" placeholder="Search" id="pencarian">
+        <button type="submit" id="search-btn" >GET DATA</button>
+    </form>
+    <!-- Content Section-->
+    <Section id="class">
+        <div class="card"> 
+            <img src="/covid.jpg" class="image">
+            <p>Active Case</p>
+            <p id="active"></p>
+        </div>
+        <div class="card"> 
+            <img src="/hospital-logo-icon-hospital-logo-icon-135146804.jpg" class="image">
+            <p>New Case</p>
+            <p id="new"></p>
+        </div>
+        <div class="card">
+            <img src="/download.png" class="image">
+            <p>Recovered Case</p>
+            <p id="recover"></p>
+        </div>
+       <div class="card">  
+            <img src="/coronavirus new-logo-concept_23-2148498053.png" class="image">
+            <p>Total Case</p>
+            <p id="test"></p>
+        </div>
+        <div class="card">  
+            <img src="/istockphoto-1268735836-170667a.jpg" class="image">
+            <p>Total Death</p>
+            <p id="death"></p>
+        </div>
+        <div class="card"> 
+            <img src="/swabantigen.jpeg" class="image">
+            <p>Total Test</p>
+            <p id="total"></p>
+        </div>        
+    </Section>
+ <script src="./main.js"></script>
+</body>
+</html>
